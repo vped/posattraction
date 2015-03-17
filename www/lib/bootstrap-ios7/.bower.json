@@ -1,0 +1,39 @@
+{
+  "name": "bootstrap-ios7",
+  "version": "2.0.0",
+  "main": [
+    "./dist/css/bootstrap.css",
+    "./dist/js/bootstrap.js",
+    "./dist/fonts/ratchicons.eot",
+    "./dist/fonts/ratchicons.svg",
+    "./dist/fonts/ratchicons.ttf",
+    "./dist/fonts/ratchicons.woff"
+  ],
+  "ignore": [
+    "**/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "js/tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  },
+  "devDependencies": {
+    "bootstrap-sass-official": "~3.1.1+2",
+    "ratchet": "https://github.com/twbs/ratchet.git#~2.0.2"
+  },
+  "homepage": "https://github.com/jbrad/bootstrap-ios7",
+  "_release": "2.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.0.0",
+    "commit": "9788e3dbbff4e6293a1ae64e8dd39eabb7ed3582"
+  },
+  "_source": "git://github.com/jbrad/bootstrap-ios7.git",
+  "_target": "~2.0.0",
+  "_originalSource": "bootstrap-ios7",
+  "_direct": true
+}
