@@ -4,7 +4,7 @@
 // 'posApp' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 
-var app = angular.module('posApp', ['ionic','ui.router','homeApp','loginApp','screen1App','screen2App','screen3App','screen4App','screen5App'])
+var app = angular.module('posApp', ['ionic','ui.router']);
 
 app.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -73,40 +73,4 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
   $urlRouterProvider.otherwise("/");
 
-})
-
-
-//app.config(function($stateProvider, $urlRouterProvider) {
-//
-//  // Ionic uses AngularUI Router which uses the concept of states
-//  // Learn more here: https://github.com/angular-ui/ui-router
-//  // Set up the various states which the app can be in.
-//  // Each state's controller can be found in controllers.js
-//  $stateProvider
-//
-//  // setup an abstract state for the tabs directive
-//
-//    .state('posattraction', {
-//    url: "/",
-//     //template:'<h1>heelooo there</h1>'
-//    templateUrl: "templates/posattraction.html",
-//    controller:'posCtrl'
-//  })
-//
-//  //.state('login', {
-//  //  url: "/login",
-//  //      template:'<h1>heelo there</h1>',
-//  //  //templateUrl: "templates/login.html",
-//  //  controller:'loginCtrl'
-//  //})
-//  //
-//  //.state('home', {
-//  //  url: "/home",
-//  //  abstract: true,
-//  //  templateUrl: "templates/home.html",
-//  //  controller:'homeCtrl'
-//  //});
-//
-//  $urlRouterProvider.otherwise('/');
-//
-//});
+});
