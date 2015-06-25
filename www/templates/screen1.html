@@ -1,9 +1,37 @@
 <ion-view>
     <ion-content  >
-        <div>
-            <pre>
-            </pre>
-            {{pageTitle}}
+        <div class="bar bar-header bar-stable">
+            <h1 class="title">Registration Form</h1>
         </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="list">
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">User Name</span>
+                <input type="text" ng-model="user.email" placeholder="email">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Password</span>
+                <input type="password" ng-model="user.passw">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">First Name</span>
+                <input type="text" ng-model="user.firstname" placeholder="name">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Last Name</span>
+                <input type="text" ng-model="user.lastname" placeholder="surname">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Birth Date</span>
+                <input type="date" ng-model="user.date1" placeholder="mm/dd/yyyy">
+            </label>
+        </div>
+        &nbsp;&nbsp;
+        <button class="button button-light" ng-click="submit(user)">
+           Submit
+        </button>
     </ion-content>
 </ion-view>
