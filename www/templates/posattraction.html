@@ -1,18 +1,40 @@
 <ion-view>
     <ion-content>
         <div>
-            <pre>
-                FIRST PAGE
-            </pre>
-           {{pageTitle}}
-            <a href="#/home">HOME</a>
-            <a href="#/login">LOGIN</a>
-            <a href="#/one">First Page</a>
-            <a href="#/two">Second Page</a>
-            <a href="#/three">Third Page</a>
-            <a href="#/four">Fourth Page</a>
-            <a href="#/five">Fifth PAge</a>
+            <div class="bar bar-header bar-stable">
 
+                <h1 class="title" ng-bind="pageTitle"></h1>
+            </div>
+            <br>
+            <br>
+
+            <div class="list">
+                <a class="item item-avatar" href="#/home">
+                    <img src="../img/ionic.png">
+                    <h2>Home Page</h2>
+                </a>
+                <a class="item item-avatar" href="#/two">
+                    <img src="../img/ionic.png">
+                    <h2>Second Page</h2>
+                </a>
+                <a class="item item-avatar" href="#/three">
+                    <img src="../img/ionic.png">
+                    <h2>Third Page</h2>
+                </a>
+                <a class="item item-avatar" href="#/four">
+                    <img src="../img/ionic.png">
+                    <h2>Fourth Page</h2>
+                </a>
+                <a class="item item-avatar" href="#/five">
+                    <img src="../img/ionic.png">
+                    <h2>Fifth Page</h2>
+                </a>
+
+            </div>
+            <h4 class="title" ng-bind="findData.username"></h4>
+
+            <p>Error Data</p>
+            {{findData}}
         </div>
     </ion-content>
 </ion-view>

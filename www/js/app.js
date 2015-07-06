@@ -25,8 +25,15 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
       .state('/', {
         url: "/",
-        templateUrl: "templates/posattraction.html",
-        controller:'posCtrl'
+        templateUrl: "templates/login.html",
+        controller:'loginCtrl'
+      })
+
+      .state('dash', {
+          url: "/dashboard",
+          templateUrl: "templates/posattraction.html",
+          controller:'posCtrl'
+
       })
 
       .state('one', {
@@ -63,13 +70,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
         url: "/home",
         templateUrl: "templates/home.html",
         controller:'homeCtrl'
-      })
-
-      .state('login', {
-        url: "/login",
-        templateUrl: "templates/login.html",
-        controller:'loginCtrl'
       });
+
+
 
   $urlRouterProvider.otherwise("/");
 

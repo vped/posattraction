@@ -2,7 +2,48 @@
  * Created by DELL on 3/9/2015.
  */
 
-angular.module('posApp').controller('loginCtrl',['$scope', function ($scope) {
-$scope.pageTitle='LOGIN PAGE'
+angular.module('posApp').controller('loginCtrl',['$scope','$location','$http', function ($scope, $location, $http) {
+    $scope.pageTitle='LOGIN PAGE';
+    $scope.user = {};
+    $scope.findData = {};
+    $scope.user.username = 'Pankaj';
+    $scope.user.password = 'qatest1';
+
+
+    $scope.login = function(user){
+        $http({
+                method: 'POST',
+                url: 'http://localhost:3000/signin',
+                data: "username=" +  user.email +"&password=" + user.passw,
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+            }).
+                success(function (data, status, headers, config) {
+                    console.log("Loaded user",data);
+                     $scope.findData = data;
+                     $location.path('/dashboard');
+                }).
+                error(function (data, status, headers, config) {
+                    console.log(data);
+                    $scope.findData = data;
+                    //$scope.user = "Hello user";
+                    // called asynchronously if an error occurs
+                    // or server returns response with an error status.
+                });
+
+        //ChatsFac.chatLogin($scope.user).
+        //    success(function (data) {
+        //        console.log('hi',data);
+        //
+        //    }).
+        //    error(function (data) {
+        //        console.log('error',data);
+        //    });
+
+
+        if(user.passw === 'sahni'){
+            $location.path('/dashboard');
+        }
+    }
+
 }
 ]);
