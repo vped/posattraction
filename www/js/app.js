@@ -4,7 +4,7 @@
 // 'posApp' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 
-var app = angular.module('posApp', ['ionic','ui.router']);
+var app = angular.module('posApp', ['ionic','ui.router','ionic.service.push','ionic.service.core']);
 
 app.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -19,6 +19,24 @@ app.run(function($ionicPlatform) {
     }
   });
 });
+
+app.config(['$ionicAppProvider', function($ionicAppProvider) {
+    // Identify app
+    $ionicAppProvider.identify({
+        // The App ID (from apps.ionic.io) for the server
+        app_id: '',
+        // The public API key all services will use for this app
+        api_key: '',
+
+        // Set the app to use development pushes
+        dev_push: true
+
+        // The GCM project number
+        //gcm_id: ''
+
+    });
+}]);
+
 app.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
