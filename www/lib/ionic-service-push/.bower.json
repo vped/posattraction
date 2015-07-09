@@ -26,6 +26,7 @@
     "commit": "fac22606439d1c684aa1c02abb678f32e39e27af"
   },
   "_source": "git://github.com/driftyco/ionic-service-push-client.git",
-  "_target": "~0.1.7",
-  "_originalSource": "ionic-service-push"
+  "_target": "~0.1.8",
+  "_originalSource": "ionic-service-push",
+  "_direct": true
 }
