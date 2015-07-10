@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9527b4-cfde-463b-8d30-a534e1bb0e59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" afterPath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/home.html" afterPath="$PROJECT_DIR$/www/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/login.html" afterPath="$PROJECT_DIR$/www/templates/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers/login.js" afterPath="$PROJECT_DIR$/www/js/controllers/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/myapp.iml" afterPath="$PROJECT_DIR$/.idea/myapp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/posattraction.html" afterPath="$PROJECT_DIR$/www/templates/posattraction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/screen1.html" afterPath="$PROJECT_DIR$/www/templates/screen1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myapp.iws" />
@@ -38,28 +27,28 @@
       <file leaf-file-name="screen1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/screen1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posattraction.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="posattraction.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/posattraction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65473145">
+            <state vertical-scroll-proportion="0.0">
               <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/controllers/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.32451922">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -109,8 +98,8 @@
         <option value="$PROJECT_DIR$/www/templates/login.html" />
         <option value="$PROJECT_DIR$/www/templates/screen1.html" />
         <option value="$PROJECT_DIR$/www/js/services.js" />
-        <option value="$PROJECT_DIR$/www/js/controllers/login.js" />
         <option value="$PROJECT_DIR$/www/templates/posattraction.html" />
+        <option value="$PROJECT_DIR$/www/js/controllers/login.js" />
       </list>
     </option>
   </component>
@@ -127,9 +116,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
+    <option name="x" value="333" />
     <option name="y" value="23" />
-    <option name="width" value="1537" />
+    <option name="width" value="1267" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -143,7 +132,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -154,65 +143,10 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posattraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posattraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posattraction" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/projects/testcode/myApp1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../posattractionBackend" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -277,28 +211,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="23" width="1537" height="877" extended-state="0" />
+    <frame x="333" y="23" width="1267" height="877" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4356688" sideWeight="0.49742836" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4343949" sideWeight="0.49742836" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15963061" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15963061" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4601227" sideWeight="0.50257164" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -317,9 +251,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16517857" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -663,23 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10843374">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/screen1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,16 +604,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42455244">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-          <folding>
-            <element signature="n#style#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/posattraction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65473145">
+        <state vertical-scroll-proportion="0.0">
           <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/screen1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32451922">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding />
         </state>
       </provider>

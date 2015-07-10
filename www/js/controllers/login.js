@@ -13,7 +13,7 @@ angular.module('posApp').controller('loginCtrl',['$scope','$location','$http', f
     $scope.login = function(user){
         $http({
                 method: 'POST',
-                url: 'http://localhost:3000/signin',
+                url: 'http://localhost:3030/login',
                 data: "username=" +  user.email +"&password=" + user.passw,
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'}
             }).
