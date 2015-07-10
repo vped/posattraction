@@ -1,1 +1,27 @@
 /* Empty. Add your own CSS if you like */
+.item-circular,
+.item-circular::after,
+.item-circular img {
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -webkit-animation: circletosquare 500ms 50ms infinite linear alternate;
+    -moz-animation: circletosquare 500ms 50ms infinite linear alternate;
+    -ms-animation: circletosquare 500ms 50ms infinite linear alternate;
+    -o-animation: circletosquare 500ms 50ms infinite linear alternate;
+    animation: circletosquare 500ms 50ms infinite linear alternate;
+}
+.item-circular {
+    position: relative;
+}
+.item-circular::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 1px 6px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 1px 6px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 1px 6px;
+}

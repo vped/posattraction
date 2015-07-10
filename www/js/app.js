@@ -42,9 +42,15 @@ app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
       .state('/', {
-        url: "/",
-        templateUrl: "templates/login.html",
-        controller:'loginCtrl'
+          url: "/",
+          templateUrl: "templates/splash.html",
+          controller:'splashCtrl'
+      })
+
+      .state('login', {
+          url: "/login",
+          templateUrl: "templates/login.html",
+          controller:'loginCtrl'
       })
 
       .state('dash', {
@@ -54,10 +60,10 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
       })
 
-      .state('one', {
-        url: "/one",
-        templateUrl: "templates/screen1.html",
-        controller:'screenOneCtrl'
+      .state('signup', {
+        url: "/signup",
+        templateUrl: "templates/sign-up.html",
+        controller:'signupCtrl'
       })
 
       .state('two', {

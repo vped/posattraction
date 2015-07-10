@@ -2,7 +2,7 @@
  * Created by DELL on 3/9/2015.
  */
 
-angular.module('posApp').controller('loginCtrl',['$scope','$location','$http', function ($scope, $location, $http) {
+angular.module('posApp').controller('loginCtrl',['$scope','$location','$http','$state', function ($scope, $location, $http,$state) {
     $scope.pageTitle='LOGIN PAGE';
     $scope.user = {};
     $scope.findData = {};
@@ -43,6 +43,10 @@ angular.module('posApp').controller('loginCtrl',['$scope','$location','$http', f
         if(user.passw === 'sahni'){
             $location.path('/dashboard');
         }
+    };
+
+    $scope.goBack = function () {
+        $state.go('home');
     }
 
 }

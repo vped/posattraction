@@ -1,9 +1,32 @@
-<ion-view>
+<ion-view title="PosAttraction">
     <ion-content>
-        <div>
-            <pre>
-            </pre>
-            {{pageTitle}}
+        <div ng-controller="homeCtrl">
+            <ion-slide-box class="slider-height" on-slide-changed="slideHasChanged($index)" auto-play="true"
+                           does-continue="true" show-pager="true" style="height: 300px">
+                <ion-slide class="banner-image-div" ng-repeat="slide in slides">
+                    <img ng-src="{{slide.image}}" class="banner-image" style="height: 300px">
+
+                </ion-slide>
+            </ion-slide-box>
         </div>
+        <div class="list">
+
+            <div class="item text-center" style="border: none;margin-top: -30px;padding-bottom:0;">
+                <div class="text-center" style="font-size:10px;">
+                    <div class="terms" ng-click="">POSATTRACTION TERMS OF SERVICE</div> |
+                    <div class="terms" ng-click="">PRIVACY POLICY</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <button class="col col-15 col-offset-15 button button-small button-light" style="border: 3px solid #6a0a0b; margin-left: 10px;" ng-click="register()">
+                    <span style="color: #6a0a0b; font-size: 15px;"><small>SIGN UP</small></span>
+                </button>
+                <button class="col col-15 col-offset-15 button button-small button-lash" style="margin-right: 10px; margin-left: 10px;" ng-click="login()">
+                    <span><small>SIGN IN</small></span>
+                </button>
+            </div>
+        </div>
+
     </ion-content>
 </ion-view>
