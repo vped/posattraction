@@ -9,6 +9,6 @@ app.controller('splashCtrl',['$scope','$timeout','$state', function ($scope,$tim
 
     $timeout(function () {
         $state.go('home');
-    },5000)
+    },4000)
 }
 ]);

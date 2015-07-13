@@ -25,3 +25,23 @@
     -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 1px 6px;
     box-shadow: rgba(0, 0, 0, 0.6) 0 1px 6px;
 }
+.splash-screen {
+    background-image: url('../img/background-pos.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-image-div {
+    min-height: 100px !important;
+}
+.banner-image {
+    width: 100%;
+}
+.bar.bar-header {
+    background-image: url('../img/newheader-no-shadow.png');
+    background-size: cover;
+    color: white;
+}
+.bar.bar-header .title {
+    color: white;
+}

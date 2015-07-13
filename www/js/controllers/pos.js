@@ -3,6 +3,6 @@
  */
 var app = angular.module('posApp');
 app.controller('posCtrl',['$scope', function ($scope) {
-    $scope.pageTitle = 'POSATTRACTION';
+    //$scope.pageTitle = 'POSATTRACTION';
 }
 ]);

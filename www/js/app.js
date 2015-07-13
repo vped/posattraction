@@ -37,6 +37,11 @@ app.config(['$ionicAppProvider', function($ionicAppProvider) {
     });
 }]);
 
+
+app.config(function( $ionicConfigProvider) {
+    $ionicConfigProvider.navBar.alignTitle('center');
+});
+
 app.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider
@@ -94,8 +99,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
         url: "/home",
         templateUrl: "templates/home.html",
         controller:'homeCtrl'
-      });
-
+      })
 
 
   $urlRouterProvider.otherwise("/");

@@ -1,0 +1,66 @@
+<ion-side-menus>
+
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable nav-title-slide-ios7  ">
+      <ion-nav-back-button class="button-clear btn-edit "><i class="icon ion-ios7-arrow-back "></i></ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="no-animation"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+
+    <ion-content class="">
+
+      <ion-list>
+         <div>
+             <a nav-clear href="#/profile" menu-close class="side-menu-bg item" style="padding-top:30px; border-style: none !important;" ng-click="">
+
+                 <div style="float: left; width:20%;">
+                    <img class="img-responsive profile-photo" src="../img/ved.jpg"/>
+                 </div>
+
+                 <div ng-show="false" style="float:left;margin-left:15px; margin-top:10px;">
+                     <h4 style="color: #ffffff">Click here to</h4>
+                     <h4 style="color: #ffffff">Login / Register</h4>
+                 </div>
+                 <div ng-show="true" style="float:left;margin-left:15px; margin-top:10px;">
+                     <h2 style="color: #ffffff"><b>VED PRAKASH</b></h2>
+                 </div>
+
+             </a>
+         </div>
+
+        <ion-item  class="menu-option sub-menu sidebar" nav-clear menu-close href="#/settings">
+            <i class="icon ion-person-stalker" style="margin-right: 10px;"></i>
+          SETTINGS
+        </ion-item>
+
+
+        <ion-item  class="menu-option sub-menu sidebar" nav-clear menu-close href="#/fav">
+            <i class="icon ion-ios-heart" style="margin-right: 10px;"></i>
+          Favorites
+        </ion-item>
+
+        <ion-item  class="menu-option sub-menu sidebar"  nav-clear menu-close ng-click="">
+            <i class="icon ion-share" style="margin-right: 10px;"></i>
+          Share POSATTRACTION App
+        </ion-item>
+
+        <ion-item class="menu-option sub-menu sidebar" nav-clear menu-close href="#/support">
+            <i class="icon ion-help-circled" style="margin-right: 10px;"></i>
+          FAQs
+        </ion-item>
+
+          <ion-item class="menu-option sub-menu sidebar" nav-clear menu-close href="#/about">
+              <i class="icon ion-information-circled" style="margin-right: 10px;"></i>
+              About
+          </ion-item>
+          <ion-item class="menu-option sub-menu sidebar" nav-clear menu-close href="#/feedback">
+              <i class="icon ion-compose" style="margin-right: 10px;"></i>
+              Feedback
+          </ion-item>
+
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
