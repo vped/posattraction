@@ -6,15 +6,12 @@ angular.module('posApp').controller('loginCtrl',['$scope','$location','$http','$
     $scope.pageTitle='LOGIN PAGE';
     $scope.user = {};
     $scope.findData = {};
-    $scope.user.username = 'Pankaj';
-    $scope.user.password = 'qatest1';
-
 
     $scope.login = function(user){
         $http({
                 method: 'POST',
                 url: 'http://localhost:3030/login',
-                data: "username=" +  user.email +"&password=" + user.passw,
+                data: "user="+ JSON.stringify(user),
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'}
             }).
                 success(function (data, status, headers, config) {
