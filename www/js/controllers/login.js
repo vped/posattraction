@@ -48,6 +48,9 @@ angular.module('posApp').controller('loginCtrl',['$scope','$location','$http','$
     $scope.goBack = function () {
         $state.go('home');
     }
+    $scope.gosignIn = function () {
+        $state.go('signup');
+    }
 
 }
 ]);

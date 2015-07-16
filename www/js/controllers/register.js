@@ -16,5 +16,8 @@ angular.module('posApp')
         $scope.goBack = function () {
             $state.go('home');
         }
+        $scope.gosignIn = function () {
+            $state.go('login');
+        }
 }
 ]);
