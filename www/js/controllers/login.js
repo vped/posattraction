@@ -10,7 +10,7 @@ angular.module('posApp').controller('loginCtrl',['$scope','$location','$http','$
     $scope.login = function(user){
         $http({
                 method: 'POST',
-                url: 'http://localhost:3030/login',
+                url: 'https://posattraction.herokuapp.com/login',
                 data: "user="+ JSON.stringify(user),
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'}
             }).

@@ -8,7 +8,7 @@ angular.module('posApp')
 
                 $http({
                     method: 'POST',
-                    url: 'http://localhost:3030/api/users',
+                    url: 'https://posattraction.herokuapp.com/api/users',
                     crossDomain: true,
                     data: "user="+ JSON.stringify(user),
                     headers: {'Content-Type': 'application/x-www-form-urlencoded'}
