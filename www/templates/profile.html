@@ -1,0 +1,68 @@
+<ion-view title="PROFILE" xmlns="http://www.w3.org/1999/html">
+
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon ion-navicon icon button-white"></button>
+    </ion-nav-buttons>
+
+    <div style="background-color: #efefef;text-decoration: none;padding: 0px;height:60px;"
+         class="bar bar-subheader">
+        <div class="row" style="padding:0">
+            <div class="col col-15" style="margin-top: 13px;text-align:center;">
+                <i class="icon ion-person" style="font-size:24px; color:black; "></i>
+            </div>
+            <div class="col-75 text-left text-black" style="text-align:center;padding-top:10px;">
+                <div style="text-transform: uppercase;">VED PRAKASH</div>
+                <span> prakashh108@gmail.com}}</span>
+            </div>
+            <div  ng-click="logout()" class="col col-15" style="padding-top: 18px;text-align:center; border-right: 1px solid #d3d3d3;">
+                <i class="icon ion-log-out lash" style="font-size:24px;"></i>
+            </div>
+        </div>
+    </div>
+
+    <ion-content class="has-header" style="top:100px !important;">
+
+        <div style="margin-top: 40px">
+
+            <div class="list">
+                <label class="item item-input bg-transparent">
+                    <input class="text-center" type="text" placeholder="First Name" type="text"  ng-model="formData.firstname"  style="padding: 0px;" required/>
+                </label>
+                <label class="item item-input bg-transparent">
+                    <input class="text-center" style="padding: 0px;" type="text" placeholder="Last Name" ng-model="formData.lastname" required>
+                </label>
+                <label class="item item-input bg-transparent">
+                    <script>
+                        jQuery(function($){
+                            $("#phone_profile").mask("999-999-9999");
+                        });
+                    </script>
+                    <input class="text-center" input-mask-phone  id="phone_profile" style="padding: 0px;" type="tel" placeholder="Phone Number" ng-model="formData.phone" required>
+                </label>
+                <label class="item item-input bg-transparent">
+                    <input class="col text-center" style="padding: 8px 0 0 0;" type="date" placeholder="Date of Birth" ng-model="formData.birthday" required>
+                </label>
+            </div>
+
+            <div class="row" style="margin-top: 10px;">
+                <button class="col col-50 col-offset-25 button button-small button-lash" ng-click="updateProfile()">
+                    <span><small>UPDATE</small></span>
+                </button>
+            </div>
+        </div>
+        <br>
+        <div>
+            <div class="list">
+                <label class="item item-input bg-transparent">
+                    <input class="text-center" type="password" style="padding: 0px;" placeholder="Password" ng-model="formData.password" required>
+                </label>
+            </div>
+            <div class="row" style="margin-top: 10px;">
+                <button class="col col-50 col-offset-25 button button-small button-lash" ng-click="updatePassword()">
+                    <span><small>CHANGE PASSWORD</small></span>
+                </button>
+            </div>
+        </div>
+        <br><br>
+    </ion-content>
+</ion-view>

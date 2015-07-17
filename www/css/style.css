@@ -2,10 +2,10 @@
 .item-circular,
 .item-circular::after,
 .item-circular img {
-    width: 70px;
-    height: 70px;
-    -moz-border-radius: 35px;
-    -webkit-border-radius: 35px;
+    width: 100%;
+    /*height: 70px;*/
+    /*-moz-border-radius: 35px;*/
+    /*-webkit-border-radius: 35px;*/
     -webkit-animation: circletosquare 500ms 50ms infinite linear alternate;
     -moz-animation: circletosquare 500ms 50ms infinite linear alternate;
     -ms-animation: circletosquare 500ms 50ms infinite linear alternate;
@@ -26,10 +26,16 @@
     /*box-shadow: rgba(0, 0, 0, 0.6) 0 1px 6px;*/
 /*}*/
 .splash-screen {
-    /*background-image: url('../img/background-pos.jpg');*/
+    /*background-image: url('../img/PosAttractionlLogo.jpg');*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    /*width: 100%;*/
+    /*margin-top: 35%*/
+}
+.splash-screen img {
+    width: 100%;
+    margin-top: 35%
 }
 .banner-image-div {
     min-height: 100px !important;

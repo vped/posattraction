@@ -6,7 +6,7 @@
 
 var app = angular.module('posApp', ['ionic','ui.router','ionic.service.push','ionic.service.core']);
 
-app.run(function($ionicPlatform) {
+app.run(function($ionicPlatform,$state,$ionicViewService,$ionicPopup) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -18,6 +18,26 @@ app.run(function($ionicPlatform) {
       StatusBar.styleDefault();
     }
   });
+    $ionicPlatform.registerBackButtonAction(function (event) {
+
+        if (($state.$current.name == "home")) {
+            alert('hi');
+
+            var confirmPopup = $ionicPopup.confirm({
+                title: 'PosAttraction',
+                template: 'Exit APP?',
+                okText: 'Yes',
+                cancelText: 'No'
+            });
+            confirmPopup.then(function (res) {
+                if (res) {
+                    navigator.app.exitApp();
+                } else {
+                    return false;
+                }
+            });
+        }
+    })
 });
 
 app.config(['$ionicAppProvider', function($ionicAppProvider) {
@@ -71,9 +91,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
         controller:'signupCtrl'
       })
 
-      .state('two', {
+      .state('profile', {
         url: "/two",
-        templateUrl: "templates/screen2.html",
+        templateUrl: "templates/profile.html",
         controller:'screenTwoCtrl'
       })
 
